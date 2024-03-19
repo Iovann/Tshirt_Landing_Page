@@ -41,9 +41,10 @@
                         <p class="align-items-center fw-semibold"> <img src="../assets/service détail/check.svg" alt="" class="px-1 py-2 me-2 rounded-circle" style="background-color: rgba(17, 177, 150, 0.15);">Mix and match colors, sizes, and designs </p>
                         <p class="align-items-center fw-semibold"> <img src="../assets/service détail/check.svg" alt="" class="px-1 py-2 me-2 rounded-circle" style="background-color: rgba(17, 177, 150, 0.15);">No credit card required</p>
                         <p class="align-items-center fw-semibold"> <img src="../assets/service détail/check.svg" alt="" class="px-1 py-2 me-2 rounded-circle" style="background-color: rgba(17, 177, 150, 0.15);">Friendly supports </p>
+                        <p class="btn btn-lg text-white  fw-bold w-100 d-none d-xl-block" style="background-color: rgba(46, 187, 119, 1);">Get Started</p>
                     </div>
 
-                    <div class="col-xl-5 text-center text-xl-start mt-4 mt-xl-0">
+                    <div class="col-xl-5  text-start mt-4 mt-xl-0 order-first order-xl-last">
                        <div class="mb-4">
                         <h4 class="fw-bold">Access to update</h4>
                         <p class="fw-lighter pb-2 pt-1 ">Updates come to the email.</p>
@@ -60,6 +61,9 @@
                             <h1 class="fs-1 fw-bolder ms-3">$68 <sub class=" ps-2 fw-lighter text-decoration-line-through fs-5 ">$88</sub>  </h1>
                         </div>
                         
+                    </div>
+                    <div class="text-center my-3 ">
+                        <p class="btn btn-lg text-white  fw-bold w-75 text-center d-xl-none" style="background-color: rgba(46, 187, 119, 1);">Get Started</p>
                     </div>
                 </div>
             </div>
@@ -126,8 +130,8 @@
             </div>
             <div class="col-lg-6 ">
                 <form action="">
-                    <div class="form-check  border border-1 border-success shadow-lg rounded-4 mb-4 py-3">
-                        <input class="form-check-input ms-2" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                    <div class="form-check rounded-4 mb-4 py-3" :class="{ 'border border-1 border-success shadow-lg' : isChecked ==='first' }">
+                        <input class="form-check-input ms-2" type="radio" name="flexRadioDefault" id="flexRadioDefault1" value='first' v-model="isChecked">
                         <label class="form-check-label row justify-content-between" for="flexRadioDefault1">
                             <div class="col-lg-1 col-5 h4">Starter</div>
                             <div class="col-xl-3 col-7 fw-bolder text-end">$37 <span class="fw-lighter">/ month</span></div>
@@ -135,8 +139,8 @@
                         </label>
                     </div>
 
-                    <div class="form-check shadow-sm   rounded-4 mb-4 py-3">
-                        <input class="form-check-input ms-2" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                    <div class="form-check shadow-sm   rounded-4 mb-4 py-3 " :class="{ 'border border-1 border-success shadow-lg': isChecked ==='second'}">
+                        <input class="form-check-input ms-2" type="radio" name="flexRadioDefault" id="flexRadioDefault1 " value='second'  v-model="isChecked">
                         <label class="form-check-label row justify-content-between" for="flexRadioDefault1">
                             <div class="col-lg-1 col-5 h4">Standard</div>
                             <div class="col-xl-3 col-7 fw-bolder text-end">$67 <span class="fw-lighter">/ month</span></div>
@@ -144,8 +148,8 @@
                         </label>
                     </div>
 
-                    <div class="form-check shadow-sm  rounded-4 mb-4 py-3">
-                        <input class="form-check-input ms-2" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                    <div class="form-check shadow-sm  rounded-4 mb-4 py-3" :class="{ 'border border-1 border-success shadow-lg' : isChecked ==='third'} ">
+                        <input class="form-check-input ms-2" type="radio" name="flexRadioDefault" id="flexRadioDefault1" value='third'  v-model="isChecked">
                         <label class="form-check-label row justify-content-between" for="flexRadioDefault1">
                             <div class="col-lg-1 col-5 h4">Pro</div>
                             <div class="col-xl-3 col-7 fw-bolder text-end">$99 <span class="fw-lighter">/ month</span></div>
@@ -171,11 +175,12 @@ export default {
         navigationBar,
         firstfooter,
     },
+
     data() {
-    return {
-      myImage: require('../assets/grand_cercle.svg'),
-    }
-  },
+        return {
+            isChecked: null,
+        }
+}
 }
 </script>
 

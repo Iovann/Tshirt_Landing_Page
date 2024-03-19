@@ -22,13 +22,13 @@
             <p class="h2 text-center mb-1">Meet the TeeSpace team</p>
             <p class="fw-lighter text-center mb-3">Let us show you how your product come to life.</p>
 
-            <div class="row justify-content-between ">
-                <div class="col-4 col-md-3 m-md-3 col-lg-2 text-center m-lg-2 ">
+            <div class="row justify-content-center  justify-content-lg-between ">
+                <div class="col-6 col-md-3 m-md-3 col-lg-2 text-center m-lg-2 ">
                     <p class="text-center"><img class="img-fluid" src="../assets/our team/alerne.svg" alt=""></p>
                     <p class="text-center fw-semibold mb-1">Arlene McCoy</p>
                     <p class="text-center fw-lighter">President of Sales</p>
                 </div>
-                <div class="col-4 col-md-3 m-md-3 col-lg-2 text-center m-lg-2 ">
+                <div class="col-6 col-md-3 m-md-3 col-lg-2 text-center m-lg-2 ">
                     <p class="text-center"><img class="img-fluid" src="../assets/our team/Jane.svg" alt=""></p>
                     <p class="text-center fw-semibold mb-1">Jane Copper</p>
                     <p class="text-center fw-lighter">Web Designer</p>

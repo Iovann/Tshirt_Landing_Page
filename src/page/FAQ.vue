@@ -1,4 +1,5 @@
 <template>
+    
     <section>
         <navigationBar/>
         <section class="py-5" id="service">
@@ -28,11 +29,14 @@
                             </h2>
                             <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
                                 <div class="accordion-body">
-                                    To make a T-shirt design, your first need to install specific graphic design software. Once you’ve done that,
-                                    start your creation your final design is at least 220 PPI so it won’t be pixelated when printed…  
-                                    
-                                    To design your own T-shirt, you can upload your design to the front of your tee and add custom elements like
+                                    <p>
+                                        To make a T-shirt design, your first need to install specific graphic design software. Once you’ve done that,
+                                        start your creation your final design is at least 220 PPI so it won’t be pixelated when printed…    
+                                    </p>
+                                    <p>
+                                        To design your own T-shirt, you can upload your design to the front of your tee and add custom elements like
                                     text. For some of our T-shirts, reverse side printing is also available.
+                                    </p>
                                 </div>
                             </div>
                         </div>
@@ -44,11 +48,14 @@
                             </h2>
                             <div id="flush-collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
                                 <div class="accordion-body">
-                                    To make a T-shirt design, your first need to install specific graphic design software. Once you’ve done that,
-                                    start your creation your final design is at least 220 PPI so it won’t be pixelated when printed…  
-                                    
-                                    To design your own T-shirt, you can upload your design to the front of your tee and add custom elements like
+                                    <p>
+                                        To make a T-shirt design, your first need to install specific graphic design software. Once you’ve done that,
+                                        start your creation your final design is at least 220 PPI so it won’t be pixelated when printed…    
+                                    </p>
+                                    <p>
+                                        To design your own T-shirt, you can upload your design to the front of your tee and add custom elements like
                                     text. For some of our T-shirts, reverse side printing is also available.
+                                    </p>
                                 </div>                        
                             </div>
                         </div>
@@ -60,11 +67,14 @@
                             </h2>
                             <div id="flush-collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
                                 <div class="accordion-body">
-                                    To make a T-shirt design, your first need to install specific graphic design software. Once you’ve done that,
-                                    start your creation your final design is at least 220 PPI so it won’t be pixelated when printed…  
-                                    
-                                    To design your own T-shirt, you can upload your design to the front of your tee and add custom elements like
+                                    <p>
+                                        To make a T-shirt design, your first need to install specific graphic design software. Once you’ve done that,
+                                        start your creation your final design is at least 220 PPI so it won’t be pixelated when printed…    
+                                    </p>
+                                    <p>
+                                        To design your own T-shirt, you can upload your design to the front of your tee and add custom elements like
                                     text. For some of our T-shirts, reverse side printing is also available.
+                                    </p>
                                 </div>                       
                             </div>
                         </div>
@@ -77,11 +87,14 @@
                             </h2>
                             <div id="flush-collapsefour" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
                                 <div class="accordion-body">
-                                    To make a T-shirt design, your first need to install specific graphic design software. Once you’ve done that,
-                                    start your creation your final design is at least 220 PPI so it won’t be pixelated when printed…  
-                                    
-                                    To design your own T-shirt, you can upload your design to the front of your tee and add custom elements like
+                                    <p>
+                                        To make a T-shirt design, your first need to install specific graphic design software. Once you’ve done that,
+                                        start your creation your final design is at least 220 PPI so it won’t be pixelated when printed…    
+                                    </p>
+                                    <p>
+                                        To design your own T-shirt, you can upload your design to the front of your tee and add custom elements like
                                     text. For some of our T-shirts, reverse side printing is also available.
+                                    </p>
                                 </div>                       
                             </div>
                         </div>
@@ -109,11 +122,14 @@
                             </h2>
                             <div id="flush-collapseSecondOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
                                 <div class="accordion-body">
-                                    To make a T-shirt design, your first need to install specific graphic design software. Once you’ve done that,
-                                    start your creation your final design is at least 220 PPI so it won’t be pixelated when printed…  
-                                    
-                                    To design your own T-shirt, you can upload your design to the front of your tee and add custom elements like
+                                    <p>
+                                        To make a T-shirt design, your first need to install specific graphic design software. Once you’ve done that,
+                                        start your creation your final design is at least 220 PPI so it won’t be pixelated when printed…    
+                                    </p>
+                                    <p>
+                                        To design your own T-shirt, you can upload your design to the front of your tee and add custom elements like
                                     text. For some of our T-shirts, reverse side printing is also available.
+                                    </p>
                                 </div>
                             </div>
                         </div>
@@ -125,11 +141,14 @@
                             </h2>
                             <div id="flush-collapseSecondTwo" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
                                 <div class="accordion-body">
-                                    To make a T-shirt design, your first need to install specific graphic design software. Once you’ve done that,
-                                    start your creation your final design is at least 220 PPI so it won’t be pixelated when printed…  
-                                    
-                                    To design your own T-shirt, you can upload your design to the front of your tee and add custom elements like
+                                    <p>
+                                        To make a T-shirt design, your first need to install specific graphic design software. Once you’ve done that,
+                                        start your creation your final design is at least 220 PPI so it won’t be pixelated when printed…    
+                                    </p>
+                                    <p>
+                                        To design your own T-shirt, you can upload your design to the front of your tee and add custom elements like
                                     text. For some of our T-shirts, reverse side printing is also available.
+                                    </p>
                                 </div>                        
                             </div>
                         </div>
@@ -141,11 +160,14 @@
                             </h2>
                             <div id="flush-collapseSecondThree" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
                                 <div class="accordion-body">
-                                    To make a T-shirt design, your first need to install specific graphic design software. Once you’ve done that,
-                                    start your creation your final design is at least 220 PPI so it won’t be pixelated when printed…  
-                                    
-                                    To design your own T-shirt, you can upload your design to the front of your tee and add custom elements like
+                                    <p>
+                                        To make a T-shirt design, your first need to install specific graphic design software. Once you’ve done that,
+                                        start your creation your final design is at least 220 PPI so it won’t be pixelated when printed…    
+                                    </p>
+                                    <p>
+                                        To design your own T-shirt, you can upload your design to the front of your tee and add custom elements like
                                     text. For some of our T-shirts, reverse side printing is also available.
+                                    </p>
                                 </div>                       
                             </div>
                         </div>
@@ -158,11 +180,14 @@
                             </h2>
                             <div id="flush-collapseSecondfour" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
                                 <div class="accordion-body">
-                                    To make a T-shirt design, your first need to install specific graphic design software. Once you’ve done that,
-                                    start your creation your final design is at least 220 PPI so it won’t be pixelated when printed…  
-                                    
-                                    To design your own T-shirt, you can upload your design to the front of your tee and add custom elements like
+                                    <p>
+                                        To make a T-shirt design, your first need to install specific graphic design software. Once you’ve done that,
+                                        start your creation your final design is at least 220 PPI so it won’t be pixelated when printed…    
+                                    </p>
+                                    <p>
+                                        To design your own T-shirt, you can upload your design to the front of your tee and add custom elements like
                                     text. For some of our T-shirts, reverse side printing is also available.
+                                    </p>
                                 </div>                       
                             </div>
                         </div>
@@ -176,11 +201,14 @@
                             </h2>
                             <div id="flush-collapseSecondfive" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
                                 <div class="accordion-body">
-                                    To make a T-shirt design, your first need to install specific graphic design software. Once you’ve done that,
-                                    start your creation your final design is at least 220 PPI so it won’t be pixelated when printed…  
-                                    
-                                    To design your own T-shirt, you can upload your design to the front of your tee and add custom elements like
+                                    <p>
+                                        To make a T-shirt design, your first need to install specific graphic design software. Once you’ve done that,
+                                        start your creation your final design is at least 220 PPI so it won’t be pixelated when printed…    
+                                    </p>
+                                    <p>
+                                        To design your own T-shirt, you can upload your design to the front of your tee and add custom elements like
                                     text. For some of our T-shirts, reverse side printing is also available.
+                                    </p>
                                 </div>                       
                             </div>
                         </div>
@@ -366,21 +394,37 @@
 </template>
 
 <script>
-import navigationBar from "../components/navbar.vue";
-import firstfooter from "../components/Home1/footer.vue";
+// import navigationBar from "../components/navbar.vue";
+// import firstfooter from "../components/Home1/footer.vue";
 export default {
     name:"FAQ",
     components: {
-        navigationBar,
-        firstfooter,
+        // navigationBar,
+        // firstfooter,
     },
-   
+    data() {
+    return {
+      items: [
+        { id: 1, title: "Comment fonctionne la personnalisation des produits ?", content: "Contenu 1" },
+        { id: 2, title: "Quels produits puis-je personnaliser ?", content: "Contenu 2" },
+        { id: 3, title: "Quels produits puis-je personnaliser ?", content: "Contenu 2gcfh" },
+
+        // Ajouter d'autres éléments
+      ],
+      activeId: null,
+    };
+  },
+  computed: {
+    isActive() {
+      return (itemId) => this.activeId === itemId;
+    },
+  },
 }
 </script>
 
 <style>
 
-#banner{
+/* #banner{
     background-color: rgba(100, 203, 154, 0.9);
     background-image: url(../assets/grand_cercle.svg);
     background-repeat: no-repeat;
@@ -390,5 +434,5 @@ export default {
     background-image: url(../assets/pricing/petit_cercle.svg);
     background-repeat: no-repeat;
     background-position: right  top 0%;
-}
+} */
 </style>

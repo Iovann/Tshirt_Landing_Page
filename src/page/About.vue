@@ -62,7 +62,7 @@
                     <div class="accordion accordion-flush " id="accordionFlushExample">
                         <div class="accordion-item mb-4">
                             <h2 class="accordion-header">
-                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne" @click="isButtonClicked = true">
                                 <span class="fw-semibold">Graphic Design Services</span>
                             </button>
                             </h2>
@@ -182,22 +182,22 @@
 
     <section class="container-fluid" style="background-color: #f7f7f7;">
            <div class="container py-5">
-               <div class="row justify-content-between">
-                   <div class=" col-lg-4 mt-5">
-                        <div class="row align-items-center mt-5 ">
+               <div class="row  justify-content-between">
+                   <div class="col-lg-4 mt-5">
+                        <div class="row align-items-center mt-lg-5 ">
                             <div class="col-12 col-lg-5 text-center d-none d-lg-block">
                                 <img src="../assets/about/téléchargement (1).png" alt="" class="rounded-circle img-fluid py-2 bg-white w-75 float-end ">
                             </div>
-                            <div class="col-lg-6">
-                                <p class="pb-5 d-inline d-lg-block"><img src="../assets/about/logo_vert.svg" alt="" class="img-fluid w-50  ms-lg-5 "></p>
-                                <p class="pt-5 d-inline d-lg-block"><img src="../assets/about/logo_window.svg" alt="" class="img-fluid w-50"></p>
+                            <div class="col-lg-6 d-flex d-lg-block  text-center justify-content-center ">
+                                <p class="pb-lg-5"><img src="../assets/about/logo_vert.svg" alt="" class="img-fluid w-50  ms-lg-5 logo"></p>
+                                <p class="pt-lg-5"><img src="../assets/about/logo_window.svg" alt="" class="img-fluid w-50 logo"></p>
                             </div>
                         </div>
                    </div>   
                    
                    <div class="col-lg-4 text-center">
                         <p class="">
-                            <img src="../assets/about/logo_bleu.svg" alt="" class="img-fluid" style="width: 40%;">
+                            <img src="../assets/about/logo_bleu.svg" alt="" class="img-fluid logo1" style="width: 40%;">
                         </p>
 
                         <p class="h2 fw-bold "> Join the 7,000+  companies trusting us</p>
@@ -205,14 +205,14 @@
                         <button class="btn btn-lg px-2 text-white fw-bold " style="background-color: #2EBB77;">Get Started</button>
                    </div>
 
-                   <div class="col-lg-4">
-                        <div class="row align-items-center">
-                            <div class="col-8 col-lg-6 mt-5">
-                                <p class="pb-5"><img src="../assets/about/logo_violet.svg" alt="" class="img-fluid w-50 align-self-start mt-5 "></p>
-                                <p class="pt-5"><img src="../assets/about/logo_s_vert.svg" alt="" class="img-fluid align-self-end ms-5 w-75"></p>
+                   <div class="col-lg-4 mt-3 mt-lg-0">
+                        <div class="row align-items-center justify-content-center ">
+                            <div class="col-lg-5 mt-lg-5 text-center d-flex d-lg-block  justify-content-center justify-content-lg-start  ">
+                                <p class="pb-lg-5"><img src="../assets/about/logo_violet.svg" alt="" class="img-fluid  align-self-start mt-lg-5 mt-2 w-50 logo2"></p>
+                                <p class="pt-lg-5"><img src="../assets/about/logo_s_vert.svg" alt="" class="img-fluid align-self-end ms-lg-5 w-75 logo"></p>
                             </div>
-                            <div class="col-8 col-lg-5 ">
-                                <img src="../assets/about/téléchargement (1).png" alt="" class="rounded-circle img-fluid py-2 bg-white w-75 float-end ">
+                            <div class="col-sm-2 d-none d-lg-block me-5 col-lg-5">
+                                <img src="../assets/about/téléchargement (1).png" alt="" class="rounded-circle img-fluid py-2 bg-white w-75 float-end">
                             </div>
                         </div>
                    </div>
@@ -319,6 +319,12 @@ export default {
         navigationBar,
         secondfooter,
     },
+
+    data() {
+    return {
+      isButtonClicked: false,
+    }
+  },
 }
 </script>
 
@@ -333,5 +339,16 @@ export default {
     background-image: url(../assets/pricing/petit_cercle.svg);
     background-repeat: no-repeat;
     background-position: right  top 0%;
+}
+
+@media (max-width:992px) {
+    
+    img.logo{
+        width:45% !important;
+    }
+
+    img.logo1{
+        width: 20% !important;
+    }
 }
 </style>
