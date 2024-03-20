@@ -1,8 +1,7 @@
 const info = [
-
-    // design Product
+    // Design Product
     {
-        image: "../assets/bdd/design/design_product_brown.jpeg",
+        image: "../assets/bdd/hoodie/hoodie_black1.jpg",
         categorie: "design",
         color: "brown",
         price: "29",
@@ -10,7 +9,7 @@ const info = [
     },
 
     {
-        image: "../assets/bdd/design/design_product_red.jpeg",
+        image: "./src/assets/bdd/design/design_product_red.jpeg",
         categorie: "design",
         color: "red",
         price: "25",
@@ -18,23 +17,23 @@ const info = [
     },
 
     {
-        image: "../assets/bdd/design/design_product_white.jpeg",
+        image: "./src/assets/bdd/design/design_product_white.jpeg",
         categorie: "design",
         color: "white",
         price: "23",
         inventory: true,
     },
     {
-        image: "../assets/bdd/design/design_product_black.jpeg",
+        image: "./src/assets/bdd/design/design_product_black.jpeg",
         categorie: "design",
         color: "black",
         price: "29",
         inventory: true,
     },
 
-    // hoodie
+    // Hoodie
     {
-        image: "../assets/bdd/hoodie/hoodie_black1.jpg",
+        image: "./src/assets/bdd/hoodie/hoodie_black1.jpg",
         categorie: "hoodie",
         color: "black",
         price: "30",
@@ -42,7 +41,7 @@ const info = [
     },
 
     {
-        image: "../assets/bdd/hoodie/hoodie_black2.jpg",
+        image: "./src/assets/bdd/hoodie/hoodie_black2.jpg",
         categorie: "hoodie",
         color: "black",
         price: "21",
@@ -50,7 +49,7 @@ const info = [
     },
 
     {
-        image: "../assets/bdd/hoodie/hoodie_black3.jpg",
+        image: "./src/assets/bdd/hoodie/hoodie_black3.jpg",
         categorie: "hoodie",
         color: "black",
         price: "18",
@@ -58,7 +57,7 @@ const info = [
     },
 
     {
-        image: "../assets/bdd/hoodie/hoodie_brown1jpg",
+        image: "./src/assets/bdd/hoodie/hoodie_brown1jpg",
         categorie: "hoodie",
         color: "brown",
         price: "20",
@@ -66,7 +65,7 @@ const info = [
     },
 
     {
-        image: "../assets/bdd/hoodie/hoodie_brown2jpg",
+        image: "./src/assets/bdd/hoodie/hoodie_brown2jpg",
         categorie: "hoodie",
         color: "brown",
         price: "21",
@@ -74,7 +73,7 @@ const info = [
     },
 
     {
-        image: "../assets/bdd/hoodie/hoodie_red.jpg",
+        image: "./src/assets/bdd/hoodie/hoodie_red.jpg",
         categorie: "hoodie",
         color: "red",
         price: "23.99",
@@ -82,7 +81,7 @@ const info = [
     },
 
     {
-        image: "../assets/bdd/hoodie/hoodie_red2.jpg",
+        image: "./src/assets/bdd/hoodie/hoodie_red2.jpg",
         categorie: "hoodie",
         color: "red",
         price: "26.99",
@@ -90,7 +89,7 @@ const info = [
     },
 
     {
-        image: "../assets/bdd/hoodie/hoodie_white.jpg",
+        image: "./src/assets/bdd/hoodie/hoodie_white.jpg",
         categorie: "hoodie",
         color: "white",
         price: "27",
@@ -98,7 +97,7 @@ const info = [
     },
 
     {
-        image: "../assets/bdd/hoodie/hoodie_white2.jpg",
+        image: "./src/assets/bdd/hoodie/hoodie_white2.jpg",
         categorie: "hoodie",
         color: "white",
         price: "20",
@@ -106,7 +105,7 @@ const info = [
     },
 
     {
-        image: "../assets/bdd/hoodie/hoodie_white3.jpg",
+        image: "./src/assets/bdd/hoodie/hoodie_white3.jpg",
         categorie: "hoodie",
         color: "white",
         price: "27",
@@ -114,16 +113,16 @@ const info = [
     },
 
     {
-        image: "../assets/bdd/hoodie/hoodie_yellow.jpg",
+        image: "./src/assets/bdd/hoodie/hoodie_yellow.jpg",
         categorie: "hoodie",
         color: "yellow",
         price: "20",
         inventory: true,
     },
 
-    // kids
+    // Kids
     {
-        image: "../assets/bdd/kids/kids_black.jpg",
+        image: "./src/assets/bdd/kids/kids_black.jpg",
         categorie: "kids",
         color: "black",
         price: "15",
@@ -131,7 +130,7 @@ const info = [
     },
 
     {
-        image: "../assets/bdd/kids/kids_brown.jpg",
+        image: "./src/assets/bdd/kids/kids_brown.jpg",
         categorie: "kids",
         color: "brown",
         price: "19",
@@ -139,7 +138,7 @@ const info = [
     },
 
     {
-        image: "../assets/bdd/kids/kids_hoodie_yellow.svg",
+        image: "./src/assets/bdd/kids/kids_hoodie_yellow.svg",
         categorie: "kids",
         color: "yellow",
         price: "17",
@@ -147,14 +146,14 @@ const info = [
     },
 
     {
-        image: "../assets/bdd/kids/kids_red.jpg",
+        image: "./src/assets/bdd/kids/kids_red.jpg",
         categorie: "kids",
         color: "red",
         price: "19",
         inventory: true,
     },
     {
-        image: "../assets/bdd/kids/kids_white.jpg",
+        image: "./src/assets/bdd/kids/kids_white.jpg",
         categorie: "kids",
         color: "white",
         price: "20",
@@ -162,7 +161,7 @@ const info = [
     },
 
     {
-        image: "../assets/bdd/kids/kids_white2.jpg",
+        image: "./src/assets/bdd/kids/kids_white2.jpg",
         categorie: "kids",
         color: "white",
         price: "23",
@@ -170,16 +169,16 @@ const info = [
     },
 
     {
-        image: "../assets/bdd/kids/long_sleeves_kids_red.jpeg",
+        image: "./src/assets/bdd/kids/long_sleeves_kids_red.jpeg",
         categorie: "kids",
         color: "red",
         price: "23",
         inventory: false,
     },
 
-    // long_sleeve
+    // Long_sleeve
     {
-        image: "../assets/bdd/long/long_sleeve_black3.jpeg",
+        image: "./src/assets/bdd/long/long_sleeve_black3.jpeg",
         categorie: "long sleeve",
         color: "black",
         price: "35.99",
@@ -187,7 +186,7 @@ const info = [
     },
 
     {
-        image: "../assets/bdd/long/long_sleeve_red.jpg",
+        image: "./src/assets/bdd/long/long_sleeve_red.jpg",
         categorie: "long sleeve",
         color: "red",
         price: "30",
@@ -195,7 +194,7 @@ const info = [
     },
 
     {
-        image: "../assets/bdd/long/long_sleeve_red2.jpg",
+        image: "./src/assets/bdd/long/long_sleeve_red2.jpg",
         categorie: "long sleeve",
         color: "red",
         price: "31",
@@ -203,7 +202,7 @@ const info = [
     },
 
     {
-        image: "../assets/bdd/long/long_sleeve_white.svg",
+        image: "./src/assets/bdd/long/long_sleeve_white.svg",
         categorie: "long sleeve",
         color: "white",
         price: "30",
@@ -211,7 +210,7 @@ const info = [
     },
 
     {
-        image: "../assets/bdd/long/long_sleeves_black.jpeg",
+        image: "./src/assets/bdd/long/long_sleeves_black.jpeg",
         categorie: "long sleeve",
         color: "black",
         price: "29.99",
@@ -219,7 +218,7 @@ const info = [
     },
 
     {
-        image: "../assets/bdd/long/long_sleeves_black.jpg",
+        image: "./src/assets/bdd/long/long_sleeves_black.jpg",
         categorie: "long sleeve",
         color: "black",
         price: "26.99",
@@ -227,7 +226,7 @@ const info = [
     },
 
     {
-        image: "../assets/bdd/long/long_sleeves_black2.jpeg",
+        image: "./src/assets/bdd/long/long_sleeves_black2.jpeg",
         categorie: "long sleeve",
         color: "black",
         price: "30.99",
@@ -235,7 +234,7 @@ const info = [
     },
 
     {
-        image: "../assets/bdd/long/long_sleeves_black3.jpg",
+        image: "./src/assets/bdd/long/long_sleeves_black3.jpg",
         categorie: "long sleeve",
         color: "black",
         price: "26",
@@ -243,7 +242,7 @@ const info = [
     },
 
     {
-        image: "../assets/bdd/long/long_sleeves_brown.jpeg",
+        image: "./src/assets/bdd/long/long_sleeves_brown.jpeg",
         categorie: "long sleeve",
         color: "brown",
         price: "31",
@@ -251,7 +250,7 @@ const info = [
     },
 
     {
-        image: "../assets/bdd/long/long_sleeves_brown2.jpeg",
+        image: "./src/assets/bdd/long/long_sleeves_brown2.jpeg",
         categorie: "long sleeve",
         color: "brown",
         price: "30",
@@ -259,7 +258,7 @@ const info = [
     },
 
     {
-        image: "../assets/bdd/long/long_sleeves_noir2.jpeg",
+        image: "./src/assets/bdd/long/long_sleeves_noir2.jpeg",
         categorie: "long sleeve",
         color: "black",
         price: "30",
@@ -267,7 +266,7 @@ const info = [
     },
 
     {
-        image: "../assets/bdd/long/long_sleeves_red.jpeg",
+        image: "./src/assets/bdd/long/long_sleeves_red.jpeg",
         categorie: "long sleeve",
         color: "red",
         price: "27",
@@ -275,7 +274,7 @@ const info = [
     },
 
     {
-        image: "../assets/bdd/long/long_sleeves_red.jpg",
+        image: "./src/assets/bdd/long/long_sleeves_red.jpg",
         categorie: "long sleeve",
         color: "red",
         price: "28",
@@ -283,7 +282,7 @@ const info = [
     },
 
     {
-        image: "../assets/bdd/long/long_sleeves_white.jpeg",
+        image: "./src/assets/bdd/long/long_sleeves_white.jpeg",
         categorie: "long sleeve",
         color: "white",
         price: "29.99",
@@ -291,7 +290,7 @@ const info = [
     },
 
     {
-        image: "../assets/bdd/long/long_sleeves_white2.jpeg",
+        image: "./src/assets/bdd/long/long_sleeves_white2.jpeg",
         categorie: "long sleeve",
         color: "white",
         price: "29.99",
@@ -299,7 +298,7 @@ const info = [
     },
 
     {
-        image: "../assets/bdd/long/long_sleeves_yellow.jpg",
+        image: "./src/assets/bdd/long/long_sleeves_yellow.jpg",
         categorie: "long sleeve",
         color: "yellow",
         price: "29.99",
@@ -308,7 +307,7 @@ const info = [
 
     // sweat
     {
-        image: "../assets/bdd/sweat/sweat_black.jpeg",
+        image: "./src/assets/bdd/sweat/sweat_black.jpeg",
         categorie: "sweat",
         color: "black",
         price: "29.99",
@@ -316,14 +315,14 @@ const info = [
     },
 
     {
-        image: "../assets/bdd/sweat/sweat_black.jpg",
+        image: "./src/assets/bdd/sweat/sweat_black.jpg",
         categorie: "sweat",
         color: "black",
         price: "26.99",
         inventory: true,
     },
     {
-        image: "../assets/bdd/sweat/sweat_black2.jpeg",
+        image: "./src/assets/bdd/sweat/sweat_black2.jpeg",
         categorie: "sweat",
         color: "black",
         price: "29.99",
@@ -331,7 +330,7 @@ const info = [
     },
 
     {
-        image: "../assets/bdd/sweat/sweat_black3.jpeg",
+        image: "./src/assets/bdd/sweat/sweat_black3.jpeg",
         categorie: "sweat",
         color: "black",
         price: "28.99",
@@ -339,7 +338,7 @@ const info = [
     },
 
     {
-        image: "../assets/bdd/sweat/sweat_black4.jpeg",
+        image: "./src/assets/bdd/sweat/sweat_black4.jpeg",
         categorie: "sweat",
         color: "black",
         price: "39.99",
@@ -347,7 +346,7 @@ const info = [
     },
 
     {
-        image: "../assets/bdd/sweat/sweat_black5.jpeg",
+        image: "./src/assets/bdd/sweat/sweat_black5.jpeg",
         categorie: "sweat",
         color: "black",
         price: "35.99",
@@ -355,7 +354,7 @@ const info = [
     },
 
     {
-        image: "../assets/bdd/sweat/sweat_black6.jpeg",
+        image: "./src/assets/bdd/sweat/sweat_black6.jpeg",
         categorie: "sweat",
         color: "black",
         price: "30",
@@ -363,7 +362,7 @@ const info = [
     },
 
     {
-        image: "../assets/bdd/sweat/sweat_brown.jpeg",
+        image: "./src/assets/bdd/sweat/sweat_brown.jpeg",
         categorie: "sweat",
         color: "brown",
         price: "39",
@@ -371,7 +370,7 @@ const info = [
     },
 
     {
-        image: "../assets/bdd/sweat/sweat_brown2.jpeg",
+        image: "./src/assets/bdd/sweat/sweat_brown2.jpeg",
         categorie: "sweat",
         color: "brown",
         price: "37",
@@ -379,7 +378,7 @@ const info = [
     },
 
     {
-        image: "../assets/bdd/sweat/sweat_red.jpeg",
+        image: "./src/assets/bdd/sweat/sweat_red.jpeg",
         categorie: "sweat",
         color: "red",
         price: "32",
@@ -387,7 +386,7 @@ const info = [
     },
 
     {
-        image: "../assets/bdd/sweat/sweat_red2.jpeg",
+        image: "./src/assets/bdd/sweat/sweat_red2.jpeg",
         categorie: "sweat",
         color: "red",
         price: "28",
@@ -395,7 +394,7 @@ const info = [
     },
 
     {
-        image: "../assets/bdd/sweat/sweat_white.jpeg",
+        image: "./src/assets/bdd/sweat/sweat_white.jpeg",
         categorie: "sweat",
         color: "white",
         price: "40",
@@ -403,7 +402,7 @@ const info = [
     },
 
     {
-        image: "../assets/bdd/sweat/sweat_white2.jpeg",
+        image: "./src/assets/bdd/sweat/sweat_white2.jpeg",
         categorie: "sweat",
         color: "white",
         price: "40",
@@ -411,7 +410,7 @@ const info = [
     },
 
     {
-        image: "../assets/bdd/sweat/sweat_white3.jpeg",
+        image: "./src/assets/bdd/sweat/sweat_white3.jpeg",
         categorie: "sweat",
         color: "white",
         price: "40",
@@ -419,7 +418,7 @@ const info = [
     },
 
     {
-        image: "../assets/bdd/sweat/sweat_yellow.jpeg",
+        image: "./src/assets/bdd/sweat/sweat_yellow.jpeg",
         categorie: "sweat",
         color: "yellow",
         price: "40",
@@ -427,7 +426,7 @@ const info = [
     },
 
     {
-        image: "../assets/bdd/sweat/sweat_yellow2.jpeg",
+        image: "./src/assets/bdd/sweat/sweat_yellow2.jpeg",
         categorie: "sweat",
         color: "yellow",
         price: "40",
@@ -437,7 +436,7 @@ const info = [
     // t-shirt
 
     {
-        image: "../assets/bdd/tshirt/tshirt_black.jpeg",
+        image: "./src/assets/bdd/tshirt/tshirt_black.jpeg",
         categorie: "tshirt",
         color: "black",
         price: "12",
@@ -445,7 +444,7 @@ const info = [
     },
 
     {
-        image: "../assets/bdd/tshirt/tshirt_black.svg",
+        image: "./src/assets/bdd/tshirt/tshirt_black.svg",
         categorie: "tshirt",
         color: "black",
         price: "16",
@@ -453,7 +452,7 @@ const info = [
     },
 
     {
-        image: "../assets/bdd/tshirt/tshirt_black1.svg",
+        image: "./src/assets/bdd/tshirt/tshirt_black1.svg",
         categorie: "tshirt",
         color: "black",
         price: "17",
@@ -461,7 +460,7 @@ const info = [
     },
 
     {
-        image: "../assets/bdd/tshirt/tshirt_black3.svg",
+        image: "./src/assets/bdd/tshirt/tshirt_black3.svg",
         categorie: "tshirt",
         color: "black",
         price: "16",
@@ -469,7 +468,7 @@ const info = [
     },
 
     {
-        image: "../assets/bdd/tshirt/tshirt_brown.jpeg",
+        image: "./src/assets/bdd/tshirt/tshirt_brown.jpeg",
         categorie: "tshirt",
         color: "brown",
         price: "19",
@@ -477,7 +476,7 @@ const info = [
     },
 
     {
-        image: "../assets/bdd/tshirt/tshirt_brown.jpeg",
+        image: "./src/assets/bdd/tshirt/tshirt_brown.jpeg",
         categorie: "tshirt",
         color: "brown",
         price: "19",
@@ -485,7 +484,7 @@ const info = [
     },
 
     {
-        image: "../assets/bdd/tshirt/tshirt_red.jpeg",
+        image: "./src/assets/bdd/tshirt/tshirt_red.jpeg",
         categorie: "tshirt",
         color: "red",
         price: "19",
@@ -493,7 +492,7 @@ const info = [
     },
 
     {
-        image: "../assets/bdd/tshirt/tshirt_red2.jpeg",
+        image: "./src/assets/bdd/tshirt/tshirt_red2.jpeg",
         categorie: "tshirt",
         color: "red",
         price: "12",
@@ -501,7 +500,7 @@ const info = [
     },
 
     {
-        image: "../assets/bdd/tshirt/tshirt_white.jpeg",
+        image: "./src/assets/bdd/tshirt/tshirt_white.jpeg",
         categorie: "tshirt",
         color: "white",
         price: "12.99",
@@ -509,7 +508,7 @@ const info = [
     },
 
     {
-        image: "../assets/bdd/tshirt/tshirt_white.svg",
+        image: "./src/assets/bdd/tshirt/tshirt_white.svg",
         categorie: "tshirt",
         color: "white",
         price: "15",
@@ -517,7 +516,7 @@ const info = [
     },
 
     {
-        image: "../assets/bdd/tshirt/tshirt_white1.jpeg",
+        image: "./src/assets/bdd/tshirt/tshirt_white1.jpeg",
         categorie: "tshirt",
         color: "white",
         price: "10.99",
@@ -525,7 +524,7 @@ const info = [
     },
 
     {
-        image: "../assets/bdd/tshirt/tshirt_white1.svg",
+        image: "./src/assets/bdd/tshirt/tshirt_white1.svg",
         categorie: "tshirt",
         color: "white",
         price: "10.99",
@@ -533,7 +532,7 @@ const info = [
     },
 
     {
-        image: "../assets/bdd/tshirt/tshirt_white2.jpeg",
+        image: "./src/assets/bdd/tshirt/tshirt_white2.jpeg",
         categorie: "tshirt",
         color: "white",
         price: "11.99",
@@ -541,7 +540,7 @@ const info = [
     },
 
     {
-        image: "../assets/bdd/tshirt/tshirt_white2.svg",
+        image: "./src/assets/bdd/tshirt/tshirt_white2.svg",
         categorie: "tshirt",
         color: "white",
         price: "13.99",
@@ -549,7 +548,7 @@ const info = [
     },
 
     {
-        image: "../assets/bdd/tshirt/tshirt_white3.jpeg",
+        image: "./src/assets/bdd/tshirt/tshirt_white3.jpeg",
         categorie: "tshirt",
         color: "white",
         price: "15",
@@ -557,7 +556,7 @@ const info = [
     },
 
     {
-        image: "../assets/bdd/tshirt/tshirt_white3.svg",
+        image: "./src/assets/bdd/tshirt/tshirt_white3.svg",
         categorie: "tshirt",
         color: "white",
         price: "13.99",
@@ -565,7 +564,7 @@ const info = [
     },
 
     {
-        image: "../assets/bdd/tshirt/tshirt_yellow.jpeg",
+        image: "./src/assets/bdd/tshirt/tshirt_yellow.jpeg",
         categorie: "tshirt",
         color: "yellow",
         price: "15",
@@ -573,7 +572,7 @@ const info = [
     },
 
     {
-        image: "../assets/bdd/tshirt/tshirt_brown2.jpeg",
+        image: "./src/assets/bdd/tshirt/tshirt_brown2.jpeg",
         categorie: "tshirt",
         color: "brown",
         price: "13",
@@ -581,11 +580,11 @@ const info = [
     },
 
     {
-        image: "../assets/bdd/tshirt/tteshirt_white.svg",
+        image: "./src/assets/bdd/tshirt/tteshirt_white.svg",
         categorie: "tshirt",
         color: "white",
         price: "10",
         inventory: true,
     },
-]
-module.export = info;
+];
+export default info;

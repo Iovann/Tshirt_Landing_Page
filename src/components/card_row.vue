@@ -1,17 +1,23 @@
 <template>
-    <section>
-
+    <section class="container">
+        <div class="row">
+            <card v-for="(card, index) in tabcard" :key="index" :card="card"/>
+        </div>
     </section>
-  <!-- <card/> -->
 </template>
 
 <script>
-// import card from "../components/card.vue"
+import card from "../components/card.vue"
 export default {
     name : 'Card_Row',
     components: {
-        // card,
+        card,
     },
+
+    props:
+    {
+        tabcard: Array
+    }    
 }
 </script>
 

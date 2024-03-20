@@ -243,23 +243,28 @@
                   </div>
 
           </div>
+
+          <div class="col-lg-9">
+            <card_Row :tabcard = "data_Card"/>
+          </div>
       </div>
     </section>
         
-    <!-- <card_Row/> -->
     <firstfooter/>
   </section>
 </template>
 
 <script>
 // import
-// import card_Row from "../components/card_row.vue"
+import {ref, onMounted} from "vue"
+import info from "../BDD"
+import card_Row from "../components/card_row.vue"
 import navigationBar from "../components/navbar.vue";
 import firstfooter from "../components/Home1/footer.vue";
 export default {
     name: 'ShopVueCompo',
     components: {
-        // card_Row,
+        card_Row,
         navigationBar,
         firstfooter,
     },
@@ -269,7 +274,31 @@ export default {
       rangeValue: 0,
     };
   },
+  setup(){ 
+        class Card{
+            constructor(image, categorie, color, price, inventory)
+            {
+                this.image = image
+                this.categorie = categorie
+                this.color = color
+                this.price = price
+                this.inventory = inventory
+            }
+        }
+        let data_Card = ref([])
+        const data_function = () => {
+            for (const card of info) {
+                const new_card = new Card (card.image, card.categorie, card.color, card.price, card.inventory)
+                data_Card.value.push(new_card)
+            }
+            console.log(data_Card)
+        }
+        onMounted(data_function)
 
+        return{
+            data_Card,
+        }   
+    },
     
 }
 </script>
@@ -277,6 +306,6 @@ export default {
 <style>
 #loupe{
   position: absolute;
-  left: 89%;
+  left: 87%;
 }
 </style>
