@@ -28,12 +28,12 @@
             </div>
             <div class="offcanvas-body">
                 <h2 class="fw-bold">Search</h2>
-                    <div class="d-flex">
-                        <input type="text" class="form-control position-relative" placeholder="Search...">
-                        <button class="btn border border-star-0" type="submit">
-                            <img src="../assets/blog/search.svg" alt="">
-                        </button>
-                    </div>
+                <div class="d-flex position-relative ">
+                    <input type="text" class="form-control position-relative" placeholder="Search...">
+                            <button class="btn border-0 " id="loupe" type="submit">
+                        <img src="../assets/blog/search.svg" alt="">
+                    </button>
+                </div>
                     <h2 class="fw-bold pb-3 pt-5">Categories</h2>
                     <div class="row py-3 ">
                         <div class="col-12 mb-3  d-flex justify-content-between">
@@ -375,5 +375,8 @@ export default {
 </script>
 
 <style>
-
+#loupe{
+  position: absolute;
+  left: 89%;
+}
 </style>
