@@ -28,7 +28,7 @@
                 <p class="text-success me-2 fw-bolder my-3"> Lean More <img src="../assets/pricing/arrow.svg" alt=""> </p>
             </div>
 
-            <div class="col-xl-7 p-5" id="pricingPlans2">
+            <div class="col-xl-7 p-3" id="pricingPlans2">
                 <div class="row shadow-lg rounded-4 py-3 px-2 bg-white ">
                     <div class="col-xl-7 ">
                         <!-- <img :src="myImage" alt="Mon image"> -->
@@ -44,7 +44,7 @@
                         <p class="btn btn-lg text-white  fw-bold w-100 d-none d-xl-block" style="background-color: rgba(46, 187, 119, 1);">Get Started</p>
                     </div>
 
-                    <div class="col-xl-5  text-start mt-4 mt-xl-0 order-first order-xl-last">
+                    <div class="col-xl-5  text-start mt-4 mt-xl-0">
                        <div class="mb-4">
                         <h4 class="fw-bold">Access to update</h4>
                         <p class="fw-lighter pb-2 pt-1 ">Updates come to the email.</p>
